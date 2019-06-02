@@ -3,6 +3,9 @@ import { Project, GithubIcon } from '../../../common'
 import HackerNews from '../../../../static/github/hacker-news.PNG'
 import Youtube from '../../../../static/github/youtube-video-search.PNG'
 import Burger from '../../../../static/github/burger.jpg'
+import PersonalTrainer from '../../../../static/github/personal-trainer.png'
+import TeliaMenu from '../../../../static/github/telia-menu.png'
+import Upcloud from '../../../../static/github/upcloud-servers.png'
 
 const Github = () => {
   const repositories = [
@@ -23,6 +26,24 @@ const Github = () => {
       title: 'Burger Order',
       image: `${Burger}`,
       link: 'https://burger-order.netlify.com/'
+    },
+    {
+      id: 3,
+      title: 'Personal Trainer Database',
+      image: `${PersonalTrainer}`,
+      link: 'https://personal-trainer-database.netlify.com/'
+    },
+    {
+      id: 4,
+      title: 'Telia English Menu',
+      image: `${TeliaMenu}`,
+      link: 'https://telia-english-menu.netlify.com/'
+    },
+    {
+      id: 5,
+      title: 'UpCloud Servers',
+      image: `${Upcloud}`,
+      link: 'https://misa-upcloud.netlify.com/'
     }
   ]
   return (
