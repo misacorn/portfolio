@@ -1,11 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const CardFooter = ({ description, link }) => (
+const CardFooter = ({ description, link, code }) => (
   <Wrapper>
     <p>{description}</p>
     <a target="_blank" rel="noopener noreferrer" href={link}>
-      Visit link
+      Link
+    </a>
+    <a id="right" target="_blank" rel="noopener noreferrer" href={code}>
+      Code
     </a>
   </Wrapper>
 )
@@ -17,6 +20,9 @@ const Wrapper = styled.div`
     font-weight: normal;
     font-size: 16px;
     text-transform: uppercase;
+  }
+  #right {
+    float: right;
   }
   p {
     color: #212121;

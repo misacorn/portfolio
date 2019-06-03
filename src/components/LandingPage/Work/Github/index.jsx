@@ -13,37 +13,43 @@ const Github = () => {
       id: 0,
       title: 'Telia English Menu',
       image: `${TeliaMenu}`,
-      link: 'https://telia-english-menu.netlify.com/'
+      link: 'https://telia-english-menu.netlify.com/',
+      code: 'https://github.com/misacorn/telia-enlgish-menu'
     },
     {
       id: 1,
       title: 'UpCloud Servers',
       image: `${Upcloud}`,
-      link: 'https://misa-upcloud.netlify.com/'
+      link: 'https://misa-upcloud.netlify.com/',
+      code: 'https://github.com/misacorn/upcloud-servers'
     },
     {
       id: 2,
       title: 'Hacker News',
       image: `${HackerNews}`,
-      link: 'https://hacker-news-search.netlify.com/'
+      link: 'https://hacker-news-search.netlify.com/',
+      code: 'https://github.com/misacorn/hacker-news'
     },
     {
       id: 3,
       title: 'Youtube Video Search',
       image: `${Youtube}`,
-      link: 'https://youtube-video-search.netlify.com/'
+      link: 'https://youtube-video-search.netlify.com/',
+      code: 'https://github.com/misacorn/react-youtube-vids'
     },
     {
       id: 4,
       title: 'Burger Order',
       image: `${Burger}`,
-      link: 'https://burger-order.netlify.com/'
+      link: 'https://burger-order.netlify.com/',
+      code: 'https://github.com/misacorn/burger-builder'
     },
     {
       id: 5,
       title: 'Personal Trainer Database',
       image: `${PersonalTrainer}`,
-      link: 'https://personal-trainer-database.netlify.com/'
+      link: 'https://personal-trainer-database.netlify.com/',
+      code: 'https://github.com/misacorn/personal-trainer-database'
     }
   ]
   return (

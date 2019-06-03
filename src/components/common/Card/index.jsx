@@ -4,11 +4,11 @@ import CardHeader from './components/CardHeader'
 import CardBody from './components/CardBody'
 import CardFooter from './components/CardFooter'
 
-const Card = ({ id, link, title, image, description, svg }) => (
+const Card = ({ id, link, code, title, image, description, svg }) => (
   <Wrapper id={id}>
     <CardHeader title={title} />
     <CardBody svg={svg} image={image} title={title} />
-    <CardFooter description={description} link={link} />
+    <CardFooter description={description} link={link} code={code} />
   </Wrapper>
 )
 
