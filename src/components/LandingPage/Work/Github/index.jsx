@@ -1,7 +1,7 @@
 import React from 'react'
 import { Project, GithubIcon } from '../../../common'
 import HackerNews from '../../../../static/github/hacker.png'
-import Youtube from '../../../../static/github/youtube-search.png'
+import DadsJokes from '../../../../static/github/dads-jokes.png'
 import Burger from '../../../../static/github/burger-order.png'
 import PersonalTrainer from '../../../../static/github/personal-trainer.png'
 import TeliaMenu from '../../../../static/github/telia-menu.png'
@@ -25,17 +25,17 @@ const Github = () => {
     },
     {
       id: 2,
+      title: "Dad's Jokes",
+      image: `${DadsJokes}`,
+      link: 'https://youtube-video-search.netlify.com/',
+      code: 'https://github.com/misacorn/react-youtube-vids'
+    },
+    {
+      id: 3,
       title: 'Hacker News',
       image: `${HackerNews}`,
       link: 'https://hacker-news-search.netlify.com/',
       code: 'https://github.com/misacorn/hacker-news'
-    },
-    {
-      id: 3,
-      title: 'Youtube Video Search',
-      image: `${Youtube}`,
-      link: 'https://youtube-video-search.netlify.com/',
-      code: 'https://github.com/misacorn/react-youtube-vids'
     },
     {
       id: 4,
