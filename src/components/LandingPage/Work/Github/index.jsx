@@ -6,6 +6,7 @@ import Burger from '../../../../static/github/burger-order.png'
 import PersonalTrainer from '../../../../static/github/personal-trainer.png'
 import TeliaMenu from '../../../../static/github/telia-menu.png'
 import Upcloud from '../../../../static/github/upcloud-servers.png'
+import Weather from '../../../../static/github/weather.png'
 
 const Github = () => {
   const repositories = [
@@ -32,10 +33,10 @@ const Github = () => {
     },
     {
       id: 3,
-      title: 'Hacker News',
-      image: `${HackerNews}`,
-      link: 'https://hacker-news-search.netlify.com/',
-      code: 'https://github.com/misacorn/hacker-news'
+      title: 'Weather',
+      image: `${Weather}`,
+      link: 'https://misa-weather-app.herokuapp.com/',
+      code: 'https://github.com/misacorn/weather-app'
     },
     {
       id: 4,
