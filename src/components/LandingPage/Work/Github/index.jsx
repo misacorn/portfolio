@@ -28,12 +28,12 @@ const Github = () => {
       id: 2,
       title: "Dad's Jokes",
       image: `${DadsJokes}`,
-      link: 'https://youtube-video-search.netlify.com/',
-      code: 'https://github.com/misacorn/react-youtube-vids'
+      link: 'https://dads-jokes.netlify.com/',
+      code: 'https://github.com/misacorn/dad-jokes'
     },
     {
       id: 3,
-      title: 'Weather',
+      title: 'Weather App',
       image: `${Weather}`,
       link: 'https://misa-weather-app.herokuapp.com/',
       code: 'https://github.com/misacorn/weather-app'
