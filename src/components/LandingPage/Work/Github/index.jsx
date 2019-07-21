@@ -1,12 +1,12 @@
 import React from 'react'
 import { Project, GithubIcon } from '../../../common'
-import HackerNews from '../../../../static/github/hacker.png'
 import DadsJokes from '../../../../static/github/dads-jokes.png'
-import Burger from '../../../../static/github/burger-order.png'
+// import Burger from '../../../../static/github/burger-order.png'
 import PersonalTrainer from '../../../../static/github/personal-trainer.png'
 import TeliaMenu from '../../../../static/github/telia-menu.png'
 import Upcloud from '../../../../static/github/upcloud-servers.png'
 import Weather from '../../../../static/github/weather.png'
+import Movies from '../../../../static/github/movies.png'
 
 const Github = () => {
   const repositories = [
@@ -33,17 +33,24 @@ const Github = () => {
     },
     {
       id: 3,
-      title: 'Weather App',
+      title: 'Weather App (NodeJS)',
       image: `${Weather}`,
       link: 'https://misa-weather-app.herokuapp.com/',
       code: 'https://github.com/misacorn/weather-app'
     },
+    // {
+    //   id: 4,
+    //   title: 'Burger Order',
+    //   image: `${Burger}`,
+    //   link: 'https://burger-order.netlify.com/',
+    //   code: 'https://github.com/misacorn/burger-builder'
+    // },
     {
       id: 4,
-      title: 'Burger Order',
-      image: `${Burger}`,
-      link: 'https://burger-order.netlify.com/',
-      code: 'https://github.com/misacorn/burger-builder'
+      title: 'Movie DB (VueJS)',
+      image: `${Movies}`,
+      link: 'https://moviedb-vuejs.netlify.com',
+      code: 'https://github.com/misacorn/moviedb-vuejs'
     },
     {
       id: 5,
