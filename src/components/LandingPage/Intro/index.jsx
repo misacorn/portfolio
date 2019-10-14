@@ -12,7 +12,7 @@ const Intro = () => (
         open source projects on Github and enjoy coding in my free time.
       </p>
       <MagicalButton
-        href="https://drive.google.com/file/d/1sO-th2mQZbBqDEC97DH0ZoBcv_OoNVr5/view?usp=sharing"
+        href="https://drive.google.com/open?id=1jKWZMSljrxl3SHPr7F1KOh2SYm9Jkwpl"
         rel="noopener noreferrer"
         target="_blank"
       >
